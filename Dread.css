@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("./Marley.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    /* left: 620px; */
+    color: rgb(74, 167, 173);   
+    
+}
+#flex-container, #flex-picture{
+    display: flex;
+    /* flex-wrap: wrap;  */
+    margin: 5px; 
+    flex-direction: column;  
+}
+ /* .item{
+justify-content: space-between; 
+flex-direction: column;
+} */
+/* .item-3{
+    margin-right: auto;
+} */
+
+/* #flex-picture{
+    display: flex;
+    flex-direction: column; 
+    margin: 20px;   
+} */
+/* .px1{
+    position: absolute;
+    top: 470px;
+    right: 500px;
+    
+}
+.px3{
+    position: absolute;
+    top: 473px;
+    right: 250px;
+    
+}
+ .px2{
+     position: relative;
+     right: 284px;      
+ }  
+ .px4{
+     position: relative;
+     right: 240px;
+ }  */
+
+
+.bx1{
+    padding: 10px 20px;
+    background-color: red;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    color: black
+}
+.bx2{
+    padding: 10px 20px;
+    background-color: yellow;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    color:black
+}
+.bx3{
+    padding: 10px 20px;
+    background-color: green;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    color:black
+}
+.bx4{
+    padding: 10px 20px;
+    background-color: rgb(255, 208, 0);
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    color:black
+}
+.bx5{
+    padding: 10px 20px;
+    background-color: rgb(0, 255, 200);
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    color:black
+}
+.bx6{
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 191);
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    color:black
+}
+
+
+/* Mobile Design */
+@media only screen and (min-width: 640px){
+    #flex-container{
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    .logo{
+        position: relative;
+        left: 620px;
+    }
+    #flex-picture{
+        flex-direction: row;
+    }
+    .px2{
+        margin-right: auto;
+    }
+   
+    
+}
+
+    
+
